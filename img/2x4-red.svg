@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  width="486px" height="180px" viewBox="0 0 486 180" enable-background="new 0 0 486 180" xml:space="preserve">
+  <g>
+    <rect x="60" fill="#dd5d4b" width="36" height="180"/>
+    <rect x="268" fill="#dd5d4b" width="36" height="180"/>
+    <rect x="328" fill="#dd5d4b" width="36" height="180"/>
+    <g>
+      <polyline fill="#dd5d4b" points="225.684,26.359 187.5,64.543 149.316,26.359 123.859,51.816 162.037,89.996 123.859,128.184
+        149.316,153.641 187.496,115.455 225.684,153.641 251.141,128.184 212.963,90.006 251.141,51.816 225.684,26.359 		"/>
+      </g>
+      <rect x="390" fill="#dd5d4b" width="36" height="180"/>
+      <rect x="450" fill="#dd5d4b" width="36" height="180"/>
+      <rect fill="#dd5d4b" width="36" height="180"/>
+    </g>
+  </svg>
+  

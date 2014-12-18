@@ -1,9 +1,13 @@
+html, html a, input, textarea, button {
+  -webkit-font-smoothing: antialiased !important;
+}
+
 body {
     overflow-x: hidden;
     color: #454545;
 }
 
-p {
+p, ol {
     font-size: 20px;
 }
 
@@ -29,8 +33,19 @@ h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+@media screen and (min-width:768px) {
 p.justify {
   text-align: justify;
+}
+}
+h4.subhead {
+  background-color: rgba(0,10,10,.06);
+  padding: 10px;
+  border-radius: 2px;
+  color: rgb(255,240,250);
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  margin: 36px auto 12px;
 }
 .navbar-nav>li>a {
   padding-top: 15px;
@@ -54,7 +69,7 @@ p.justify {
 
 header {
     text-align: center;
-    color: #fff;
+    color: rgb(255,240,250);
     background: #1d4572;
 }
 
@@ -81,7 +96,7 @@ header .intro-text h1 {
   letter-spacing: 0.1em;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #ffffff;
+  color: rgb(255,240,250)fff;
   background-color: #1d4572;
   border-radius: 2px;
 }
@@ -186,13 +201,14 @@ section h2 {
   margin: 0 auto 1em;
   font-size: 3em;
   letter-spacing: -0.02em;
-  color: #dd5d4b;
+  color: rgb(214,102,78);
 }
 section#about h2 {
-  color: #fff;
+  color: rgb(255,240,250);
 }
 section#about {
-    background: #dd5d4b;
+
+    background: rgb(214,102,78);
 }
 
 section#contact {
@@ -244,7 +260,7 @@ section#contact {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: rgb(255,240,250);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -268,9 +284,9 @@ section#contact {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px rgb(255,240,250);
     font-size: 20px;
-    color: #fff;
+    color: rgb(255,240,250);
     background: 0 0;
     transition: all .3s ease-out-out;
 }
@@ -279,14 +295,14 @@ section#contact {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px rgb(255,240,250);
     color: #18bc9c;
-    background: #fff;
+    background: rgb(255,240,250);
 }
 
 
 .form-control {
-  color: #fff;
+  color: rgb(255,240,250);
   font-weight: bold;
 }
 .floating-label-form-group {
@@ -294,7 +310,9 @@ section#contact {
   border-bottom: 3px solid #1b3c5e;
   margin-bottom: .75em;
 }
-
+.fa-lg {
+  vertical-align: 15% !important;
+}
 .floating-label-form-group:focus {
   background: #1b3c5e;
 }
@@ -319,7 +337,7 @@ section#contact {
     position: relative;
     top: 2em;
     margin: 0;
-    font-size: .85em;
+    font-size: .9em;
     line-height: 1.764705882em;
     vertical-align: middle;
     vertical-align: baseline;
@@ -337,7 +355,7 @@ section#contact {
 
 .floating-label-form-group-with-value label {
   text-transform: uppercase;
-  color: #fff;
+  color: rgba(255,240,250,.6);
   top: 0;
   opacity: .9;
 }
@@ -347,7 +365,7 @@ section#contact {
 }
 
 footer {
-    color: #fff;
+    color: rgb(255,240,250);
 }
 
 footer h3 {
@@ -367,10 +385,17 @@ footer .footer-below {
     padding: 25px 0;
     background-color: #1b3c5e;
 }
+
+p.footer-text {
+  color: #1d4572;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
 .btn-submit {
   background-color: #58b7a5;
   padding: 6px 30px;
-  color: #fff;
+  color: rgb(255,240,250);
   font-size: 2.4rem;
   line-height: 1.33;
   border-radius: 2px;
@@ -390,7 +415,7 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(255,240,250);
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -500,7 +525,8 @@ ul, menu, dir {
 }
 
 .text-danger, .text-danger:hover {
-  color: #dd5d4b;
+  color: rgb(214,102,78);
+  font-weight: bold;
 }
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {

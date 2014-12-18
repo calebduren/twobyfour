@@ -1,5 +1,8 @@
 html, html a, input, textarea, button {
   -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility !important;
 }
 
 body {
@@ -7,9 +10,14 @@ body {
     color: #454545;
 }
 
-p, ol {
+p, ul {
     font-size: 20px;
 }
+
+ul {
+  list-style-image: url('');
+}
+
 
 p.small {
     font-size: 16px;
@@ -33,13 +41,11 @@ h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-@media screen and (min-width:768px) {
-p.justify {
-  text-align: justify;
-}
-}
+
 h4.subhead {
   background-color: rgba(0,10,10,.06);
+  box-shadow: inset 0 0 3px rgba(0,10,10,.04);
+  text-shadow: 0 0 3px rgba(0,10,10,.04);
   padding: 10px;
   border-radius: 2px;
   color: rgb(255,240,250);
@@ -522,6 +528,16 @@ ul, menu, dir {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
+  margin-before: 0em;
+  margin-after: 0em;
+  margin-start: 0px;
+  margin-end: 0px;
+  padding-start: 0px;
+  -moz-margin-before: 0em;
+  -moz-margin-after: 0em;
+  -moz-margin-start: 0px;
+  -moz-margin-end: 0px;
+  -moz-padding-start: 0px;
 }
 
 .text-danger, .text-danger:hover {

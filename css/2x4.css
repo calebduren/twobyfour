@@ -172,8 +172,8 @@ header .intro-text h1 {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
     }
 }
 
